@@ -145,7 +145,7 @@ List<Widget> getMessages(List<dynamic> messages, context) {
                 height: 10,
               ),
               Text(
-                'Welcome to CCR. Hi there, how can I help you?',
+                'Welcome to CCR. How can i help you?',
                 style: TextStyle(color: Colors.black, fontSize: 18),
               )
             ],
