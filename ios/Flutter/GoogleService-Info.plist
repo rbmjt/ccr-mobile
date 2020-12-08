@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>519317906533-mcabp0d84usbqqu5angme3kdijht15u6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.519317906533-mcabp0d84usbqqu5angme3kdijht15u6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAGIDI7RaycVfISyE9QoDZPtdB-8D_IvRU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>519317906533</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ccrwork.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>ccrworkmobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ccrworkmobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:519317906533:ios:68e65581c78e02c36dd28c</string>
+	<key>DATABASE_URL</key>
+	<string>https://ccrworkmobile.firebaseio.com</string>
+</dict>
+</plist>

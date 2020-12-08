@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "519317906533",
+    "firebase_url": "https://ccrworkmobile.firebaseio.com",
+    "project_id": "ccrworkmobile",
+    "storage_bucket": "ccrworkmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519317906533:android:44240853819c7db36dd28c",
+        "android_client_info": {
+          "package_name": "com.ccrwork.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519317906533-gddff0btqhqg4r5bmo9079qijpmpdvm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmRVa2fe9RWwAotLWPt9nfX4kPe5e_Qmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519317906533-gddff0btqhqg4r5bmo9079qijpmpdvm4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "519317906533-mcabp0d84usbqqu5angme3kdijht15u6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ccrwork.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
