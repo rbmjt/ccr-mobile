@@ -16,7 +16,7 @@ class _YoutubeVideoState extends State<YoutubeVideo> {
     _controller = VideoPlayerController.network(
       'https://www.youtube.com/watch?v=Uyk2Nff-hoc&ab_channel=SparkInteract-SydneyWebDesign%26Development',
     );
-
+    _controller.play();
     _controller.addListener(() {
       setState(() {});
     });
@@ -32,30 +32,18 @@ class _YoutubeVideoState extends State<YoutubeVideo> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: <Widget>[
-          Container(padding: const EdgeInsets.only(top: 20.0)),
-          Container(
-            padding: const EdgeInsets.all(50),
-            child: AspectRatio(
-              aspectRatio: _controller.value.aspectRatio,
-              child: Stack(
-                alignment: Alignment.bottomCenter,
-                children: <Widget>[
-                  VideoPlayer(_controller),
-                  ClosedCaption(text: _controller.value.caption.text),
-                  _PlayPauseOverlay(controller: _controller),
-                  VideoProgressIndicator(
-                    _controller,
-                    allowScrubbing: true,
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
+    return Container(
+      width: 1200,
+      height: 250,
+      child: Stack(alignment: Alignment.bottomCenter, children: [
+        VideoPlayer(_controller),
+        ClosedCaption(text: _controller.value.caption.text),
+        _PlayPauseOverlay(controller: _controller),
+        VideoProgressIndicator(
+          _controller,
+          allowScrubbing: true,
+        ),
+      ]),
     );
   }
 }
